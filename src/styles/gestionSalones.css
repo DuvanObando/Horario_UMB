@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-uno: #EDEDED;
+    --color-dos: #a60311;
+    --color-tres: #F9F5EB;
+    --color-white: #FFFFFF;
+}
+
+.roboto-mono {
+font-family: "Roboto Mono", monospace;
+font-optical-sizing: auto;
+font-weight: 500;
+font-style: normal;
+}
+
+body {
+    background-color: var(--color-tres);
+}
+
+img {
+    width: 50vw; 
+}
+
+label {
+    background-color: var(--color-dos);
+    color: var(--color-white);
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    font-size: 150%;
+    text-align: center;
+}
+
+input {
+    background-color: var(--color-uno);
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+    font-size: 110%;
+    font-weight: 500;
+}
+
+button {
+    background-color: var(--color-dos);
+    color: var(--color-white);
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    border: none;
+    font-size: 150%;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+h2 {
+    color: var(--color-dos);
+    font-size: 3rem;
+}
+
+.nav {
+    background-color: var(--color-uno);
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    color: var(--color-dos);
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    font-size: 180%;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 50vh; /* Ajusta la altura al 100% de la pantalla */
+}
+
+.boxes {
+    display: flex;
+    margin-top: 10rem;
+    padding: 2rem;
+    gap: 5rem;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    text-align: center;
+    gap: 2rem;
+}
+
+.box_info {
+    background-color: var(--color-uno);
+    height: 35vh;
+}
+
+.calendar {
+    margin-top: 3rem;
+}
+
+.box_detalles {
+    background-color: var(--color-uno);
+    height: 35vh;
+    width: 15vw;
+}
